@@ -1,5 +1,22 @@
 def sum_nums(nums):
-    """Given list of numbers, return sum of those numbers.
+
+  total = 0 
+  nums = [1,2,3,4]
+
+  for num in nums:
+      total = total + num
+  
+  return total    
+
+
+print("sum_nums returned", sum_nums([1, 2, 3, 4]))
+
+
+
+
+
+    
+"""Given list of numbers, return sum of those numbers.
 
     For example:
       sum_nums([1, 2, 3, 4])
@@ -9,14 +26,3 @@ def sum_nums(nums):
     """ 
     # Python has a built-in function `sum()` for this, but we don't
     # want you to use it. Please write this by hand.
-
-total = 0 
-nums = [1,2,3,4]
-
-for num in nums:
-      total = total + num
-      
-return total    
-
-
-print("sum_nums returned", sum_nums([1, 2, 3, 4]))
